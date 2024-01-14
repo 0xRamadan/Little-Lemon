@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navigation from "./Navigation";
 import Hamburger from "../assets/hamburger.png";
 import Close from "../assets/close.png";
-export default function Navbar() {
+const Navbar = ()=> {
   const [navbarOpen, setNavbarOpen] = useState(false);
   function handleToggle() {
     setNavbarOpen(!navbarOpen);
@@ -26,3 +26,5 @@ export default function Navbar() {
     </nav>
   );
 }
+
+export default Navbar;

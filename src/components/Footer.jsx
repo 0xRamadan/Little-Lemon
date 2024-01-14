@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-export default function Footer() {
+const Footer = ()=> {
   return (
     <footer>
       <menu>
@@ -74,3 +74,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default Footer;

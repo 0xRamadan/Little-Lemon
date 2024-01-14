@@ -28,7 +28,7 @@ export default function Navigation(props) {
       >
         <h1>Menu</h1>
       </a>
-      <Link className="hover-effect" to="/reservations">
+      <Link className="hover-effect" to="/reservation">
         <h1>Reservations</h1>
       </Link>
       <Link className="hover-effect" to="/order">

@@ -1,5 +1,6 @@
-import HeroImage from "../../../assets/food/food4.webp";
-export default function Login() {
+import HeroImage from "../assets/food/food4.webp";
+
+export default function Order() {
   return (
     <header className="reserve-table">
       <img
@@ -8,7 +9,7 @@ export default function Login() {
         alt="Little Lemon Ingredients"
       ></img>
       <div className="reserve-header-text">
-        <h1>Login</h1>
+        <h1>Order Online</h1>
       </div>
     </header>
   );
